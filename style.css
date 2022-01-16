@@ -1,0 +1,376 @@
+/* ---------------
+    using google font  
+-------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito+Sans:wght@300;400&family=Oxygen&family=Poppins:wght@500&display=swap');
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #FFFFFF;
+}
+main{
+   display: plex;
+   direction: column;
+   align-items: center;
+}
+
+/*----------------------------- 
+navigation style start  hear
+-------------------------------*/
+.nav-bar{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 1100px;
+    background-color: #c5b9b9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+.left-nav{
+    list-style: none;
+    color: #3A3A3A;
+    font-size: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.right-nav li{
+    display: inline;
+    list-style: none;
+    margin-right: 30px;
+    color: #3A3A3A;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px;
+}
+.right-nav a{
+    display: inline;
+    margin-right: 30px;
+    color: #3A3A3A;
+    padding: 5px;
+}
+
+/*----------------------------- 
+    navigation  end hear
+-------------------------------- */
+
+/*---------------------------- 
+    section 1 are start
+------------------------------ */
+
+.container{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    padding: 10px;
+}
+.container-info{
+    margin-left: 40px;
+    font-size: 18px;
+    color: #3A3A3A;
+}
+.section-title{
+    font-size: 40px;
+}
+.container-info a{
+    width: 500px;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 8px 15px;
+    font-size: 20px;
+    border-radius: 25px;
+    background-color: #E02C6D;
+}
+.container-info a:hover{
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.container-info a i{
+    font-size: 15px;
+    padding-left: 8px;
+}
+.container-img img{
+    transition: transform .5s ease-in;
+    width: 340px;
+    height: 315px;
+    margin-left: 150px;
+}
+.container-img img:hover{
+    transform: rotateZ(360deg);
+    transform-origin: center;
+    cursor: pointer;
+}
+/*---------------------------- 
+    section 1 are ended
+------------------------------ */
+
+/*---------------------------- 
+    logo section are start
+------------------------------ */
+.logo-container{
+    background-color: #FFFFFF;
+    width: 1000px;
+    height: 120px;
+}
+hr{
+    width: 980px;
+    margin: 25px 40px;
+}
+.logo-tatle{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 1000px;
+    background-color: #FFFFFF;
+}
+.logo-container .logo{
+    margin-left: 35px;
+    padding: 5px;      
+}
+            /* ---------------------------- 
+                logo section are ended
+            ------------------------------  */
+            
+/*------------------------ 
+   collection area start 
+--------------------------*/
+.coll-container{
+    width: 900px;
+    margin-top: 50px;
+}
+.coll-title{
+    font-size: 22px;
+    color: #3A3A3A;
+    text-align: center;
+    
+}
+.coll-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 25px;
+    grid-column-gap: 23px;
+    width: 900px;
+    margin-left: 40px;
+}
+.coll-items .popular{
+    width: 250px; 
+    font-size: 15px;
+    padding: 15px;
+    color: #3A3A3A;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+.coll-items .popular img{
+    width: 250px;
+    height: 180px;
+}
+.coll-items .popular .price{
+    color: #DE4839;
+}
+.coll-items .popular .fa-star.filled{
+    color: #F7CD2E;
+}
+.coll-items .popular .fa-star.empty{
+    color: #AAAAAA;
+}
+.coll-items .popular small{
+    margin-left: 5px;
+    padding: 0 5px;
+    border: 1px solid #DE4839;
+    border-radius: 5px;
+}
+.explore{
+    color: #E02C6D;
+    width: 90%;
+    text-align: end;
+}
+.explore:hover{
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.popular-area p i{
+    margin-left: 5px;
+    padding: 0 2px;
+    font-size: 15px;
+}
+/*------------------------ 
+   collection area ended 
+--------------------------*/
+
+/*------------------------ 
+   wellcome area start 
+--------------------------*/
+
+.unique-container{
+width: 1000px;
+}
+.unique-title{
+    font-size: 22px;
+    color: #3A3A3A;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.unique-area{
+    display: flex; 
+    align-items: center;  
+}
+.unique-area .unique-img img{
+    display: block;
+    width: 280px;
+    height: 140px;
+    margin-top: 15px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.unique-area .unique-detail{
+    width: 550px;
+    font-size: 20px;
+    color: #3A3A3A;
+    margin-left: 30px;
+}
+.unique-area .unique-detail p a{
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    padding: 8px 15px;
+    border-radius: 25px;
+}
+.unique-area .unique-detail p a:hover{
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.unique-area .unique-detail p > a > i{
+    margin-top: 40px;
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+.item-box{
+    display: flex;
+    width: 1100px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.item-box .items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+}
+.item-box .items > a{
+    color: #E02C6D;
+    padding: 10px;
+}
+
+/*------------------------ 
+   wellcome area ended 
+--------------------------*/
+
+
+/*------------------------ 
+   footer area start 
+--------------------------*/
+.footer-area{
+    background-color: #5A20CB;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+    
+.footer{
+        width: 100%;
+        height: 100%;
+        /* margin: 25px 0px;
+        padding: 25px 5px; */
+        font-size: 18px;
+        background-color: #5A20CB;
+        color: #FFFFFF;
+    }
+
+.footer span i{
+    margin-bottom: 5px;
+    background-color: #3A3A3A;
+    padding: 7px;
+    border-radius: 50px; 
+    cursor: pointer;  
+} 
+
+/*------------------------ 
+   footer area ended 
+--------------------------*/
+
+
+
+
+/* ----------
+--------------footer-area */
+    
+.footer-area{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.footer{
+        background-color: #5A20CB;
+        text-align: center;
+        color: white;
+        padding: 5px;   
+        }
+.footer .right{
+         font-size:10px;
+        }
+
+       .footer span i{
+        background-color: #3A3A3A;
+        cursor: pointer;  
+        border-radius: 50px;    
+    }
+/*------------------------------- 
+   media query for Mobile Device 
+-----------------------------------*/
+@media only screen and (max-width:688px) {
+    .nav-bar{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .right-nav{
+        display: block;
+    }
+    .right-nav a{
+        display: block;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .logo-tatle{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .coll-items{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+    }
+    .item-box{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+.footer-area{
+    display: grid;
+grid-template-columns: repeat(1, 1fr);
+}
+
+}
